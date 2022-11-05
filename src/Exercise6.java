@@ -22,7 +22,7 @@ public class Exercise6 {
             array[i] = array[array.length-1-i];
             array[array.length-1-i] = temp;
         }
-        System.out.println("Reverse order array:");
+        System.out.println("Reversed array:");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
